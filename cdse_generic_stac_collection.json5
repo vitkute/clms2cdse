@@ -18,7 +18,7 @@
       ]
     }
   },
-  "license": "other",  #also good idea to specify what are the possible option - 'other', 'proprietary'
+  "license": "other",
   "links": [
     {
         "rel":"SDI_URL", 
@@ -33,7 +33,7 @@
       "title": "Legal notice on the use of CLMS data"
     }
   ],
-  "keywords": [ /* REQUIRED. Comma separated list of keywords for the collection. These will be used for the fast free-text search filtering. */
+  "keywords": [ /* REQUIRED. Comma separated list of keywords for the collection. These will be used for the fast free-text search filtering. */ #Also good idea to agree on maybe a set of keywords that shall be mandatory for? Also, on the set of rules, for example, acronyms/no acronyms, capital letter/no capital letters
     "<STRING>",
     "<STRING>"
   ],
