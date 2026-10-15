@@ -42,7 +42,7 @@
       "url": "<STRING>", /* REQUIRED. HTTPs link to the PRVIDER provider webpage. */
       "name": "<STRING>", /* REQUIRED. Name of the PROVIDER provider. */
       "roles": [
-        "producer"
+        "producer" #At this point, there are options of producer, licensor, processor and host. Shall all of them be mentioned here? What do we mean about the processor? Processor of the data, metadata? There are usually multiple companies forming the consortium. Overall, shall we mention the companies that are involved in the production of the data? 
       ]
     },
     {
@@ -54,7 +54,7 @@
     },
     {
       "url": "https://cloudferro.com/",
-      "name": "CloudFerro",
+      "name": "CloudFerro", #do we really need to mention CloudFerro at all? If a host is needed, maybe there then it shall be mentioned CDSE. 
       "roles": [
         "host"
       ]
