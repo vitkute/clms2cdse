@@ -60,6 +60,34 @@
       ]
     }
   ],
+  "contacts": [
+  {
+    "name": "Copernicus Land Monitoring Service",
+    "organization": "European Environment Agency",
+    "roles": ["producer"],
+    "emails": [
+      {
+        "value": "copernicus@eea.europa.eu",
+        "roles": ["contact point"]
+      }
+    ],
+    "phones": [
+      {
+        "value": "+45 33 36 71 00",
+        "roles": ["contact point"]
+      }
+    ],
+    "links": [
+      {
+        "href": "https://land.copernicus.eu/",
+        "rel": "about",
+        "type": "text/html",
+        "title": "Homepage of the Copernicus Land Monitoring Service"
+      }
+    ]
+  },
+  ] # This is for bringing to your attention, that some of the collections include also a contact section. The information in this section is somewhat redundant, and maybe shall not be provided. For example, e-mail address and telephone number.
+
   "assets": { /* OPTIONAL if thumbnail not provided */
     "thumbnail": {
       "href": "<STRING>", /* REQUIRED if thumbnail provided. Public https link to the collection thumbnail in JPEG format. */
