@@ -1,7 +1,7 @@
 {
   "id": "<STRING>", /* REQUIRED. Unique id of a collection that cannot already exist in the CDSE STAC catalogue */
   "type": "Collection",
-  "title": "<STRING>", /* REQUIRED. Title of a collection */
+  "title": "<STRING>", /* REQUIRED. Title of a collection */ For CLMS collections shall it always start with CLMS or not? This seems to be the case for all the collections except the EEA Water, Snow and Ice
   "description": "<STRING>", /* REQUIRED. Informative sentences describing the collection. */
   "extent": {
     "spatial": {
