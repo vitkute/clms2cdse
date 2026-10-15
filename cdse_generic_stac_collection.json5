@@ -2,7 +2,7 @@
   "id": "<STRING>", /* REQUIRED. Unique id of a collection that cannot already exist in the CDSE STAC catalogue */ #There shall also be guidance/naming convention on how to create a collection ID, so it is aligned across all CLMS collections.  
   "type": "Collection",
   "title": "<STRING>", /* REQUIRED. Title of a collection */ #For CLMS collections shall it always start with CLMS or not? This seems to be the case for all the collections except the EEA Water, Snow and Ice
-  "description": "<STRING>", /* REQUIRED. Informative sentences describing the collection. */
+  "description": "<STRING>", /* REQUIRED. Informative sentences describing the collection. */ #Shall there be set a maximum number of characters for the description?
   "extent": {
     "spatial": {
       "bbox": [
