@@ -123,5 +123,22 @@
         "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
         "requester_pays": false
       },
+    },
+  "themes": [
+    {
+      "scheme": "https://emc.spacebel.be/skosmos/thesaurus/en/page/5c476560-e0a3-554a-9187-187a90da1309", /* REQUIRED */
+      "concepts": [
+        {
+          "id": "<STRING>", /* REQUIRED. ID e.g. bbe13d71-bea9-55c2-9b65-a24043c35937 */
+          "title": "<STRING>", /* REQUIRED. Broader concept. e.g. Agriculture */ 
+          "url": "url" /* REQUIRED. e.g. https://earth.esa.int/concept/bbe13d71-bea9-55c2-9b65-a24043c35937 */ 
+        },
+        {
+          "id": "<STRING>",  /* REQUIRED. ID e.g. bbe13d71-bea9-55c2-9b65-a24043c35937 */
+          "title": "<STRING>", /* REQUIRED. Preferred term. e.g. Crops and Yields */ 
+          "url": "url" /* REQUIRED. e.g. https://earth.esa.int/concept/edb8488d-1f9d-548c-abf4-1cdf2dfa61f6 */ 
+        }
+      ]
     }
+  ]    
 }
