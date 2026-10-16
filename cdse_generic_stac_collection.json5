@@ -110,12 +110,5 @@
         "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
         "requester_pays": false
       },
-      "creodias-s3": {
-        "type": "custom-s3",
-        "title": "CREODIAS S3",
-        "platform": "https://eodata.cloudferro.com",
-        "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits",
-        "requester_pays": true
-      }
     }
 }
