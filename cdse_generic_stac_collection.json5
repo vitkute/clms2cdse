@@ -60,6 +60,19 @@
       ]
     }
   ],
+  "summaries": {
+  "gsd": [<NUMBER>], /* if applicable to raster products */
+  "MMU": [<NUMBER>], /* custom field if approved for vector products */
+  "proj:code": ["<STRING>"],
+  "product:type": ["<STRING>"], /* REQUIRED. Product type */
+  "product:component": ["<STRING>"], /* REQUIRED. Product component */
+  "product:temporal repeat rate": ["<STRING>"], /* REQUIRED. Product temporal repeat rate */ #this is metadata coming from Odata
+  "product:dataset short name": ["<STRING>"], /* REQUIRED. Product temporal repeat rate */# this is also coming from Odata
+  "product:dataset alias": ["<STRING>"], /* REQUIRED. Product temporal repeat rate */# this is also coming from Odata
+  "product:dataset identifier": ["<STRING>"], /* REQUIRED. Dataset identifier */
+  "processing:version": ["<STRING>"] /* REQUIRED. Product version #or dataset version?
+}
+
   "contacts": [
   {
     "name": "Copernicus Land Monitoring Service",
